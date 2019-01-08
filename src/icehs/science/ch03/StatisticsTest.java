@@ -8,10 +8,10 @@ public class StatisticsTest {
 		double lottoProbability = 0.0000001235;
 		long population = 6973738433L;
 		boolean isRight = true;
-		System.out.println(fromSunToEarthDistance);
-		System.out.println(lottoProbability);
-		System.out.println(population);
-		System.out.println(isRight);
+		System.out.println("From sun to earth distance : " + fromSunToEarthDistance);
+		System.out.println("Lotto probability : " + lottoProbability);
+		System.out.println("Populations all around the world : " + population);
+		System.out.println("That variable is right? : " + isRight);
 	}
 
 }
