@@ -4,8 +4,11 @@ public class SalaryTest {
 
 	public static void main(String[] args) {
 		long money = 12000000L;
-		long taxMoney = money * 10%;
-		
+		long taxMoney = money - money / 10;
+		System.out.println("¿¬ºÀ : " + money);
+		System.out.println("¼¼ÈÄ ¿¬ºÀ : " + taxMoney);
+		long bonus = 800000L;
+		long bonus =
 	}
 
 }
