@@ -10,6 +10,8 @@ public class StudentEx {
 		System.out.println(name + " : " + address);
 		System.out.println(grade + "학년");
 		System.out.println("이름 : " + name);
+		
+		
 	}
 
 }
