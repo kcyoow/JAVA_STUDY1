@@ -8,7 +8,7 @@ public class SalaryTest {
 		System.out.println("¿¬ºÀ : " + money);
 		System.out.println("¼¼ÈÄ ¿¬ºÀ : " + taxMoney);
 		long bonus = 800000L;
-		long bonus =
+		long bonus = 
 	}
 
 }
