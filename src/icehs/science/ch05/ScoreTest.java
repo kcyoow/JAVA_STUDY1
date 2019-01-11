@@ -1,34 +1,30 @@
 package icehs.science.ch05;
 
+import java.util.Scanner;
+
 public class ScoreTest {
 
 	public static void main(String[] args) {
-		int studentCount = 8;
-		int num1 = 85;
-		int num2 = 72;
-		int num3 = 94;
-		int num4 = 88;
-		int num5 = 92;
-		int num6 = 76;
-		int num7 = 83;
-		int num8 = 92;
-		for (int i = 1; i <= 8; ++i) {
-			System.out.println(i + "번 점수 : " + num1);
-		}
-		System.out.println("반의 학생 수는?" + studentCount);
-		System.out.println("1번 점수 : " + num1);
-		System.out.println("2번 점수 : " + num2);
-		System.out.println("3번 점수 : " + num3);
-		System.out.println("4번 점수 : " + num4);
-		System.out.println("5번 점수 : " + num5);
-		System.out.println("6번 점수 : " + num6);
-		System.out.println("7번 점수 : " + num7);
-		System.out.println("8번 점수 : " + num8);
-		System.out.println("=================");
-		System.out.println("=================");
+		Scanner scanner = new Scanner(System.in);
+		
+		int sum = 0;
+		double average = 0;
+		
+		System.out.println("반의 학생수는? ");
+		int studentNo = scanner.nextInt();
+		for (int i = 1; i <= studentNo; i++) {
+			System.out.print(i + "번 점수 : ");
+			int score = scanner.nextInt();
+			sum += score;
 		
 
 
-	}
 
+		}
+		average = (double)sum / studentNo;
+		System.out.println("=========================================");
+		System.out.println(studentNo + "명의 총점 : " + sum + "점");
+		System.out.println(studentNo + "명의 평균 : " + average + "점");
+		System.out.println("=========================================");
+}
 }
