@@ -1,0 +1,17 @@
+package icehs.science.ch08;
+
+public class ChocolateArrayTest {
+
+	public static void main(String[] args) {
+		Chocolate[] chocos = new Chocolate[3];
+		chocos[0] = new Chocolate("¾Æ¸¶µµ¶ó", "´ÙÅ©", 2200);
+		chocos[1] = new Chocolate("¹ÎÆ®ÃÊÄÚ", "¹ÎÆ®", 2000);
+		chocos[2] = new Chocolate("Æ®¸®ÇÃ ºí¶û", "È­ÀÌÆ®", 2300);
+		
+		chocos[0].printChocolateInfo();
+		chocos[1].printChocolateInfo();
+		chocos[2].printChocolateInfo();
+		System.out.println("³È³È");
+	}
+
+}
